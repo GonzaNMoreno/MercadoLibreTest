@@ -1,0 +1,11 @@
+commit c73098cf537f4695cb23b9395edcbfcdbc4c5aa9
+Author: Gonza <gonzaamoreno@icloud.com>
+Date:   Wed Jan 11 21:08:37 2017 -0300
+
+    Modificacion de busqueda
+
+commit 6f68fd62f127d4eb4cac195efbf45feb6a9c138e
+Author: Gonza <gonzaamoreno@icloud.com>
+Date:   Wed Jan 11 20:45:05 2017 -0300
+
+    Primer Comit 11/01/2017
