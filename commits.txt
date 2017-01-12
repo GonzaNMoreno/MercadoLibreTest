@@ -1,3 +1,9 @@
+commit 10e9fe834bbcc28ea08432026ff85ea6f0f5e133
+Author: Gonza <gonzaamoreno@icloud.com>
+Date:   Thu Jan 12 00:35:09 2017 -0300
+
+    Ingreso de Nuevos PageObject, realiza la busqueda pero no asimila el proxy con los items. SOLO EJECUTADO EN FIREFOX. Seguire informando
+
 commit e836de4200fd24c0cb38a56aead1186c344b426a
 Author: Gonza <gonzaamoreno@icloud.com>
 Date:   Wed Jan 11 23:27:44 2017 -0300
