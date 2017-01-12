@@ -1,3 +1,9 @@
+commit e836de4200fd24c0cb38a56aead1186c344b426a
+Author: Gonza <gonzaamoreno@icloud.com>
+Date:   Wed Jan 11 23:27:44 2017 -0300
+
+    Modificacion clases en Home
+
 commit 3052420249d27210f28fef0db613f8324df7936a
 Author: Gonza <gonzaamoreno@icloud.com>
 Date:   Wed Jan 11 21:42:31 2017 -0300

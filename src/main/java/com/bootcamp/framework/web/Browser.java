@@ -15,13 +15,13 @@ import org.openqa.selenium.safari.SafariDriverService;
 
 public enum Browser {
 
-    CHROME{
+    /*CHROME{
         @Override
         public Capabilities getCapabilities(){
             ChromeDriverManager.getInstance().setup();
             return DesiredCapabilities.chrome();
         }
-    },
+    },*/
     FIREFOX{
         @Override
         public Capabilities getCapabilities(){
