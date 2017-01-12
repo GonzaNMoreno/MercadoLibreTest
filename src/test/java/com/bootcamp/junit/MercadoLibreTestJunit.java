@@ -1,6 +1,7 @@
 package com.bootcamp.junit;
 
 import com.bootcamp.framework.runner.junit.WebAutomationJUnitSuite;
+import com.bootcamp.pageobjects.ItemResultPage;
 import com.bootcamp.pageobjects.MercadoLibreHome;
 import org.junit.Test;
 
@@ -11,8 +12,11 @@ public class MercadoLibreTestJunit extends WebAutomationJUnitSuite<MercadoLibreH
 
     @Test
     public void itemSearch(){
+
         MercadoLibreHome home = getStartingPage();
 
-        MercadoLibreHome result = home.typeSearch("Juegos PS4");
+        ItemResultPage resultList = home.typeSearch("Juegos PS4");
+
+
     }
 }

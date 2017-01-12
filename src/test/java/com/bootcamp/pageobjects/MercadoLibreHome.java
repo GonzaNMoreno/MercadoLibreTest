@@ -25,10 +25,10 @@ public class MercadoLibreHome extends PageObjectBase{
         driver.navigate().to(MERCADOLIBRE_URL);
     }
 
-    public MercadoLibreHome typeSearch(String text){
+    public ItemResultPage typeSearch(String text){
         type(textSearch, text);
         click(btnSearch);
-        return new MercadoLibreHome(getDriver());
+        return new ItemResultPage(getDriver());
     }
 
 

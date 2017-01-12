@@ -1,3 +1,9 @@
+commit 3052420249d27210f28fef0db613f8324df7936a
+Author: Gonza <gonzaamoreno@icloud.com>
+Date:   Wed Jan 11 21:42:31 2017 -0300
+
+    Add commit.txt and some changes in JUnit Test
+
 commit c73098cf537f4695cb23b9395edcbfcdbc4c5aa9
 Author: Gonza <gonzaamoreno@icloud.com>
 Date:   Wed Jan 11 21:08:37 2017 -0300
