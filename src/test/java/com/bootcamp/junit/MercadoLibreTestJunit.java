@@ -13,6 +13,6 @@ public class MercadoLibreTestJunit extends WebAutomationJUnitSuite<MercadoLibreH
     public void itemSearch(){
         MercadoLibreHome home = getStartingPage();
 
-        MercadoLibreHome result = home.typeSearch("Drum kit");
+        MercadoLibreHome result = home.typeSearch("Juegos PS4");
     }
 }
