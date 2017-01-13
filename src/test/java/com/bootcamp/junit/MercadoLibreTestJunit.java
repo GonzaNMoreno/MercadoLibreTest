@@ -18,7 +18,7 @@ public class MercadoLibreTestJunit extends WebAutomationJUnitSuite<MercadoLibreH
 
         ItemResultPage resultList = home.typeSearch("Juegos PS4");
 
-        ReviewItemPage selectItem = resultList.goToReview(8);
+        ReviewItemPage selectItem = resultList.goToReview(1);
 
 
     }

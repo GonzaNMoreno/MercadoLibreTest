@@ -9,7 +9,7 @@ import org.junit.runner.RunWith;
  */
 
 @CucumberOptions(
-        features = = "",
+        features = "",
         glue={
                 "classpath:com.bootcamp.cucumber.definitions"
         },

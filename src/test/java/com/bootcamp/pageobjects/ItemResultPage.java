@@ -1,6 +1,7 @@
 package com.bootcamp.pageobjects;
 
 import com.bootcamp.framework.web.PageObjectBase;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -13,8 +14,11 @@ import static org.openqa.selenium.support.ui.ExpectedConditions.visibilityOfAllE
  */
 public class ItemResultPage extends PageObjectBase {
 
-    @FindBy(css = "button[class='bookmarks favorite']")
+    @FindBy(id = "MLA646176761")
     private List<WebElement> selectItems;
+
+    // private final By selectItems = By.className("results-item list-view-item rowItem ");
+    //Flashie cualquiera mepa (?)
 
     public ItemResultPage(WebDriver driver){
         super(driver);
