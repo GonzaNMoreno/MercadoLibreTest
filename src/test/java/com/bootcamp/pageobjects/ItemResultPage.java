@@ -14,7 +14,7 @@ import static org.openqa.selenium.support.ui.ExpectedConditions.visibilityOfAllE
  */
 public class ItemResultPage extends PageObjectBase {
 
-    @FindBy(id = "MLA646176761")
+    @FindBy(css = "h2 > a")
     private List<WebElement> selectItems;
 
     // private final By selectItems = By.className("results-item list-view-item rowItem ");

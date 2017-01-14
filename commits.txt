@@ -1,3 +1,15 @@
+commit 6ef90603f0e2dd258affd404efb0af41f55511a7
+Author: Gonza <gonzaamoreno@icloud.com>
+Date:   Fri Jan 13 20:41:42 2017 -0300
+
+    MODIFICO EJECUTANDO EN CHROME. Realiza la busqueda, muestra resultados, hardcodeado para un solo resultado, no lo selecciona, ver id en ItemResultPage
+
+commit 8208ee7df0d4b97789d1157b4ee863eec301afb0
+Author: Gonza <gonzaamoreno@icloud.com>
+Date:   Thu Jan 12 14:19:56 2017 -0300
+
+    Test Runner and ItemSearchSteps Added
+
 commit c505128ffeb26ee019b1d88508d33df1bf2a76fe
 Author: Gonza <gonzaamoreno@icloud.com>
 Date:   Thu Jan 12 01:13:58 2017 -0300

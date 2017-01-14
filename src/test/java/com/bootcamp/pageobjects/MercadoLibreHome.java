@@ -31,6 +31,9 @@ public class MercadoLibreHome extends PageObjectBase{
         return new ItemResultPage(getDriver());
     }
 
+    public boolean isVisible(){
+        return getDriver().getCurrentUrl().equals(MERCADOLIBRE_URL) && btnSearch.isDisplayed();
+    }
 
 
 }
