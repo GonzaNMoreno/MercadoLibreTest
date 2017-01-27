@@ -4,4 +4,3 @@
     Scenario: Perform a Item Search
       Given: I am at MercadoLibre home page
       When I perform a item search from "Juegos PS4"
-     

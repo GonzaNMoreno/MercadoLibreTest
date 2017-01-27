@@ -6,11 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="MercadoLibreTest" />
+        <module name="automated-Testing" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="MercadoLibreTest" target="1.8" />
+      <module name="automated-Testing" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

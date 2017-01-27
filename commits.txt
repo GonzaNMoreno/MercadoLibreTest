@@ -1,3 +1,9 @@
+commit 4c1b61c463063c19589baf36bd94da9472aeb679
+Author: Gonza <gonzaamoreno@icloud.com>
+Date:   Sat Jan 14 03:17:45 2017 -0300
+
+    Debugeado, cucumber en proceso
+
 commit 6ef90603f0e2dd258affd404efb0af41f55511a7
 Author: Gonza <gonzaamoreno@icloud.com>
 Date:   Fri Jan 13 20:41:42 2017 -0300
