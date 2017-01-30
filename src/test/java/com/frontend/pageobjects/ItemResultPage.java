@@ -16,8 +16,6 @@ public class ItemResultPage extends PageObjectBase {
     @FindBy(css = "h2 > a")
     private List<WebElement> selectItems;
 
-    // private final By selectItems = By.className("results-item list-view-item rowItem ");
-    //Flashie cualquiera mepa (?)
 
     public ItemResultPage(WebDriver driver){
         super(driver);

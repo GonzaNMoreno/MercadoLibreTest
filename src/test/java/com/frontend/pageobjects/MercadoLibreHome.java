@@ -14,6 +14,9 @@ public class MercadoLibreHome extends PageObjectBase{
 
     private static final String MERCADOLIBRE_URL = "http://www.mercadolibre.com.ar/";
 
+    @FindBy(id= "login")
+    private WebElement btnIngresar;
+
     @FindBy(id = "query")
     private WebElement textSearch;
 
@@ -33,6 +36,11 @@ public class MercadoLibreHome extends PageObjectBase{
 
     public boolean isVisible(){
         return getDriver().getCurrentUrl().equals(MERCADOLIBRE_URL) && btnSearch.isDisplayed();
+    }
+
+    public LoginMercadoLibrePage goToLogin(){
+        click(btnIngresar);
+        return new LoginMercadoLibrePage(getDriver());
     }
 
 

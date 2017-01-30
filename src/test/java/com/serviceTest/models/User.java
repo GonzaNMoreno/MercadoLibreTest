@@ -7,7 +7,7 @@ import com.fasterxml.jackson.annotation.JsonProperty;
  */
 public class User {
 
-    @JsonProperty
+/*    @JsonProperty
     public Integer id;
 
     @JsonProperty
@@ -23,6 +23,6 @@ public class User {
 
     @JsonProperty
 
-    @JsonProperty
+    @JsonProperty*/
 
 }
