@@ -3,12 +3,14 @@ package com.frontend.cucumber.definitions;
 import com.frontend.framework.runner.GenericWebAutomationTest;
 import com.frontend.framework.web.Browser;
 import com.frontend.pageobjects.ItemResultPage;
+import com.frontend.pageobjects.LoginMercadoLibrePage;
 import com.frontend.pageobjects.MercadoLibreHome;
 import com.frontend.pageobjects.ReviewItemPage;
 import cucumber.api.PendingException;
 import cucumber.api.java.After;
 import cucumber.api.java.Before;
 import cucumber.api.java.en.Given;
+import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 
 import java.util.Optional;
@@ -21,6 +23,7 @@ import static org.junit.Assert.assertTrue;
 public class ItemSearchSteps extends GenericWebAutomationTest<MercadoLibreHome>{
 
     private MercadoLibreHome home;
+    private LoginMercadoLibrePage loggin;
     private ItemResultPage itemResultPage;
     private ReviewItemPage reviewItemPage;
 
@@ -39,7 +42,12 @@ public class ItemSearchSteps extends GenericWebAutomationTest<MercadoLibreHome>{
         assertTrue("MercadoLibre home page is not visible", getStartingPage().isVisible());
     }
 
-    @When("^I perform a item search from \"([^\"]*)\"$")
+    @When("^I loggin my user in MercadoLibre$")
+    public void iLogginMyUserInMercadoLibre() throws Throwable{
+        loggin = home.goToLogin();
+    }
+
+    @Then("^I perform a item search from \"([^\"]*)\"$")
     public void iPerformAItemSearchFrom(String arg0) throws Throwable {
         // Write code here that turns the phrase above into concrete actions
         throw new PendingException();

@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2defc212-3d33-4b5d-ba1f-5f2966abb932" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/frontend/junit/MercadoLibreTestJunit.java" afterPath="$PROJECT_DIR$/src/test/java/com/frontend/junit/MercadoLibreTestJunit.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/frontend/pageobjects/ItemResultPage.java" afterPath="$PROJECT_DIR$/src/test/java/com/frontend/pageobjects/ItemResultPage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/frontend/pageobjects/MercadoLibreHome.java" afterPath="$PROJECT_DIR$/src/test/java/com/frontend/pageobjects/MercadoLibreHome.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/serviceTest/models/User.java" afterPath="$PROJECT_DIR$/src/test/java/com/serviceTest/models/User.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/serviceTest/tests/UserTestSuite.java" afterPath="$PROJECT_DIR$/src/test/java/com/serviceTest/tests/UserTestSuite.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/frontend/cucumber/definitions/ItemSearchSteps.java" afterPath="$PROJECT_DIR$/src/test/java/com/frontend/cucumber/definitions/ItemSearchSteps.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/resources/features/IteamSearch.feature" afterPath="$PROJECT_DIR$/src/test/resources/features/IteamSearch.feature" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -58,8 +54,18 @@
       <file leaf-file-name="ItemSearchSteps.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/frontend/cucumber/definitions/ItemSearchSteps.java">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="179">
+              <caret line="44" column="44" lean-forward="false" selection-start-line="44" selection-start-column="12" selection-end-line="44" selection-end-column="44" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IteamSearch.feature" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/features/IteamSearch.feature">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="112">
-              <caret line="20" column="13" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+              <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -85,10 +91,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ReviewItemPage.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ReviewItemPage.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/frontend/pageobjects/ReviewItemPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5">
+            <state relative-caret-position="19">
               <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
               <folding />
             </state>
@@ -105,10 +111,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LoginMercadoLibrePage.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="LoginMercadoLibrePage.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/frontend/pageobjects/LoginMercadoLibrePage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="291">
+            <state relative-caret-position="277">
               <caret line="29" column="49" lean-forward="false" selection-start-line="29" selection-start-column="49" selection-end-line="29" selection-end-column="49" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -145,11 +151,13 @@
         <option value="$PROJECT_DIR$/src/test/java/com/frontend/pageobjects/LoginMercadoLibrePage.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/frontend/pageobjects/ItemResultPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/frontend/junit/MercadoLibreTestJunit.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/frontend/cucumber/definitions/ItemSearchSteps.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/features/IteamSearch.feature" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="width" value="927" />
+    <option name="width" value="884" />
     <option name="height" value="860" />
   </component>
   <component name="ProjectView">
@@ -194,6 +202,14 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="features" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -454,7 +470,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../2016-Day7_CompleteExample/2016-Day7_CompleteExample/Ruso/pom.xml" />
   </component>
-  <component name="RunManager" selected="JUnit.MercadoLibreTestJunit.itemSearch">
+  <component name="RunManager" selected="Cucumber java.Feature: IteamSearch">
     <configuration default="false" name="MercadoLibreTestJunit.itemSearch" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -479,6 +495,30 @@
       </option>
       <envs />
       <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="Feature: IteamSearch" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="myFilePath" value="$PROJECT_DIR$/src/test/resources/features/IteamSearch.feature" />
+      <option name="GLUE" value="com.frontend.cucumber.definitions" />
+      <option name="myNameFilter" value="" />
+      <option name="myGeneratedName" value="Feature: IteamSearch" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="automated-Testing" />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -704,12 +744,14 @@
       <listeners />
       <method />
     </configuration>
-    <list size="1">
+    <list size="2">
       <item index="0" class="java.lang.String" itemvalue="JUnit.MercadoLibreTestJunit.itemSearch" />
+      <item index="1" class="java.lang.String" itemvalue="Cucumber java.Feature: IteamSearch" />
     </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.MercadoLibreTestJunit.itemSearch" />
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="Cucumber java.Feature: IteamSearch" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.MercadoLibreTestJunit.itemSearch" />
       </list>
     </recent_temporary>
   </component>
@@ -727,6 +769,12 @@
     <servers />
   </component>
   <component name="TestHistory">
+    <history-entry file="Feature__IteamSearch - 2017.01.30 at 13h 44m 33s.xml">
+      <configuration name="Feature: IteamSearch" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Feature__IteamSearch - 2017.01.30 at 13h 45m 56s.xml">
+      <configuration name="Feature: IteamSearch" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
     <history-entry file="MercadoLibreTestJunit_itemSearch - 2017.01.30 at 13h 10m 59s.xml">
       <configuration name="MercadoLibreTestJunit.itemSearch" configurationId="JUnit" />
     </history-entry>
@@ -738,7 +786,7 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="927" height="860" extended-state="0" />
+    <frame x="0" y="0" width="884" height="860" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -756,7 +804,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4083045" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.42961165" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -801,14 +849,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/frontend/cucumber/definitions/ItemSearchSteps.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="20" column="13" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/serviceTest/tests/UserTestSuite.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
@@ -823,14 +863,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
           <caret line="9" column="2" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="25" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/frontend/pageobjects/ReviewItemPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5">
-          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
           <folding />
         </state>
       </provider>
@@ -861,13 +893,37 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/frontend/pageobjects/LoginMercadoLibrePage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
+        <state relative-caret-position="277">
           <caret line="29" column="49" lean-forward="false" selection-start-line="29" selection-start-column="49" selection-end-line="29" selection-end-column="49" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#563#564#0" expanded="true" />
             <element signature="e#592#593#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/frontend/cucumber/definitions/ItemSearchSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="44" column="44" lean-forward="false" selection-start-line="44" selection-start-column="12" selection-end-line="44" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/IteamSearch.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/frontend/pageobjects/ReviewItemPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
